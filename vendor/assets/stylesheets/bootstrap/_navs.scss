@@ -123,6 +123,7 @@
   padding-bottom: 8px;
   line-height: $baseLineHeight;
   border: 1px solid transparent;
+  background-color: $navTabsTabBackground;
   @include border-radius(4px 4px 0 0);
   &:hover,
   &:focus {
@@ -134,7 +135,7 @@
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
   color: $gray;
-  background-color: $bodyBackground;
+  background-color: $navTabsActiveTabBackground;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
